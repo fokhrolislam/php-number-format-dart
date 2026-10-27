@@ -1,0 +1,10 @@
+name: php_number_format
+description: PHP's number_format($x, 2) reproduced exactly in Dart, so a Flutter app shows the same paisa as its PHP backend.
+version: 1.0.0
+repository: https://github.com/fokhrolislam/php-number-format-dart
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.25.0
