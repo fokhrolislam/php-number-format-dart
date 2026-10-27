@@ -1,5 +1,7 @@
 # php_number_format for Dart
 
+[![tests](https://github.com/fokhrolislam/php-number-format-dart/actions/workflows/test.yml/badge.svg)](https://github.com/fokhrolislam/php-number-format-dart/actions/workflows/test.yml)
+
 PHP's `number_format($value, 2)` reproduced exactly in Dart.
 
 ## Why
