@@ -1,7 +1,14 @@
 name: php_number_format
-description: PHP's number_format($x, 2) reproduced exactly in Dart, so a Flutter app shows the same paisa as its PHP backend.
+description: PHP's number_format($x, 2) reproduced exactly in Dart, so a Flutter app shows the same money value as its PHP or Laravel backend.
 version: 1.0.0
 repository: https://github.com/fokhrolislam/php-number-format-dart
+issue_tracker: https://github.com/fokhrolislam/php-number-format-dart/issues
+topics:
+  - php
+  - formatting
+  - currency
+  - rounding
+  - laravel
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

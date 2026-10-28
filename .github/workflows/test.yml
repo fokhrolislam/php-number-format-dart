@@ -14,3 +14,5 @@ jobs:
       - run: dart pub get
       - run: dart analyze --fatal-infos
       - run: dart test
+      - run: dart format --output=none --set-exit-if-changed .
+      - run: dart pub publish --dry-run
